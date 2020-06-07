@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    img{
+        display:none;
+    }
+</style>
+
+<div class="ghost" id="redGhost">
+    <img id="ghostImg" src="~/images/pacmanGhost.png" alt="Ghost from pacman"/>
+    <canvas id="mainScreen" width="1170" height="400"></canvas>
+</div>
+
+@section Scripts{
+    <script src="~/js/home.js"></script>
+}
